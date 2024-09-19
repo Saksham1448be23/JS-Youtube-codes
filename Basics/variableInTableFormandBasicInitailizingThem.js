@@ -10,5 +10,5 @@ Don't use var because of issue in block and function scope
 */
 /*
 alert() ---> used in browser not in vscode because alert() is a BOM(Browser Object Model) part and
-              vscode is not
+              vscode is not.
 */
