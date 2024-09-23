@@ -13,4 +13,4 @@ console.log(Array.from("hitesh"));
 console.log(Array.isArray({name:"hitesh"}));  //intresting
 
 let score=100,score2=200,score3=300;
-console.log(Array.of(score,score2,score3)); // makes the array of va
+console.log(Array.of(score,score2,score3)); // makes the array of vaiours elements
