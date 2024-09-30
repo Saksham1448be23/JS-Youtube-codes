@@ -45,6 +45,54 @@ map2.set('USA',"UNITED STATED OF AMERICA");
 for (const [key,value] of map2) {
    console.log(key,`--->`,value);
    
+};
+
+const myObject={
+   game:'Fgs',
+   game1:'KGD'
+}
+for (const key in myObject) {
+ console.log(`${myObject[key]} :- ${key}`);
+ 
 }
 
+// const code=['loops','data','if','string'];
+// code.forEach( function(val){
+//    console.log(val);
+// })
+
+// const code=['loops','data','if','string'];
+// code.forEach( (val) => { 
+//    console.log(val);
+   
+// })
+
+const code=['loops','data','if','string'];
+function PrintMe(val) {
+   console.log(val);  
+}
+code.forEach(PrintMe); 
+//built-in function that executes a provided function once for each array element. It does not return a new array and does not modify the original array. It’s commonly used for iteration and performing actions on each array element.
+// callback -->It is a callback function executes on each array element.
+
+const goals=['1','one','top','best','perfect'];
+goals.forEach((val,index,arr)=>{
+   console.log(val,index,arr);
+   
+})
+
+const work=[
+   {
+      g1:"Live",
+      g2:"Others Life"
+   },
+   {
+      g1:"Mind games",
+      g2:"Human"
+   }
+];
+work.forEach( (item)=>{
+   console.log(item.g2);
+   
+})
 
