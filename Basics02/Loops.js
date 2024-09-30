@@ -91,7 +91,7 @@ const work=[
       g2:"Human"
    }
 ];
-work.forEach( (item)=>{
+work.forEach( (item)=>{ // foreach don't return value
    console.log(item.g2);
    
 })
